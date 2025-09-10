@@ -7,7 +7,7 @@ import { Fistcomponent } from './components/fistcomponent/fistcomponent';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, Fistcomponent],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
@@ -16,3 +16,5 @@ import { Fistcomponent } from './components/fistcomponent/fistcomponent';
 export class App {
   protected readonly title = signal('meu-projeto');
 }
+
+
